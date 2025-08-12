@@ -1,11 +1,26 @@
+* {
+  box-sizing:border-box
+}
+/* .roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
 body{
     display:flex;
     flex-direction: column;
     margin: 0px;
     justify-content: center;
     align-items: center;
+    align-content: center;
     min-width: 100%;
+    max-width: 100%;
     background-color: #1F2937;
+    font-family: "Roboto", sans-serif;
 }
 
 .section1{
@@ -13,6 +28,9 @@ body{
     font-family: 'Roboto';
     color: #E5E7EB;
     font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 300px 0px 300px;
+    /* min-width: 100%; */
 }
 
 .section2{
@@ -24,18 +42,45 @@ body{
     color: #1F2937;
     font-weight: 900;
     text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 300px 0px 300px;
+}
+
+.section2 p{
+    padding: 0px 16px 0px 16px;
 }
 
 .section3{
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
     min-width: 100%;
     text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 300px 0px 300px;
+}
+
+.section3 .quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight:lighter;
+    /* padding: 50px 100px 0px 100px; */
+    margin: 36px 0px 0px 0px;
+    text-align: start;
+}
+
+.section3 .author{
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 .section4{
     background-color: white;
     min-width: 100%;
     text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 300px 0px 300px;
 }
 
 .header{
@@ -44,6 +89,8 @@ body{
     text-decoration: none;
     display: flex;
     justify-content: space-between;
+    margin: 24px 0px;
+    font-weight:bolder;
 }
 
 .footer{
@@ -53,6 +100,7 @@ body{
     justify-content: center;
     align-content: center;
     color: #E5E7EB;
+    padding: 0px 200px 0px 200px;
 }
 
 .heroText{
@@ -64,6 +112,7 @@ body{
 .headerLinks{
     display: flex;
     gap: 24px;
+    font-weight: 500;
 }
 
 .headerLinks a{
@@ -79,14 +128,28 @@ body{
     justify-content: center;
     align-items: center;
     color: #8a8a8a;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
+    width: 200px;
 }
 
 .cards{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    text-wrap: wrap;
+    align-items: baseline;
+}
+
+.cards p{
+    margin: 8px;
+    padding: 0px;
+}
+
+.cards img{
+    width: 175px;
+    height: 200px;
+    border: solid #3882F6;
 }
 
 .underHeader{
@@ -95,16 +158,44 @@ body{
     padding: 0px;
     gap: 24px;
     align-content:stretch;
+    justify-content: space-between;
 }
 
-/* .underHeaderText{
+.underHeader p{
+    margin: 0px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    text-wrap:wrap;
+}
+
+.underHeader img{
+    width: 400px;
+    padding: 100px 0px 100px 0px;
+}
+
+.underHeaderText{
     display: flex;
     flex-direction: column;
     justify-content: center;
-} */
+    flex-wrap: wrap;
+    row-gap: 12px;
+    max-width: 50%;
+}
 
 .underHeader button{
     background-color: #3882F6;
     color: #F9FAF8;
     text-align: center;
+    height: 40px;
+    width: 140px;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* margin: 6px; */
 }
