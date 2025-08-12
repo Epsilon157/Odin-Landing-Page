@@ -43,14 +43,16 @@ body{
     font-weight: 900;
     text-align: center;
     font-family: "Roboto", sans-serif;
-    padding: 0px 300px 0px 300px;
+    padding: 0px 300px 100px 300px;
 }
 
 .section2 p{
     padding: 0px 16px 0px 16px;
+    margin: 46px 0px 46px 0px;
 }
 
 .section3{
+    font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
@@ -63,6 +65,7 @@ body{
 
 .section3 p{
     font-weight: 100;
+    font-family: "Roboto", sans-serif;
 }
 
 .section3 .sec3Content{
@@ -70,21 +73,25 @@ body{
     flex-direction: column;
     /* padding:  */
     font-weight: 100;
+    margin: 125px 0px;
+    padding: 0px 75px;
 }
 
 .section3 .sec3Content .quote{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    font-weight:300;
+    font-weight:100;
     /* padding: 50px 100px 0px 100px; */
-    margin: 36px 0px 0px 0px;
+    margin: 0px;
     text-align: start;
 }
 
 .section3 .sec3Content .author{
     font-weight: bold;
     align-self: flex-end;
+    justify-self: end;
+    margin: 0px 72px;
 }
 
 .section4{
@@ -103,6 +110,11 @@ body{
     justify-content: space-between;
     margin: 24px 0px;
     font-weight:bolder;
+}
+
+.logo{
+    Height: 50px;
+    width: 200px;
 }
 
 .footer{
@@ -151,6 +163,7 @@ body{
     justify-content: space-around;
     text-wrap: wrap;
     align-items: baseline;
+    gap:0px;
 }
 
 .cards p{
@@ -190,7 +203,7 @@ body{
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    row-gap: 12px;
+    row-gap: 16px;
     max-width: 50%;
 }
 
@@ -209,5 +222,4 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
-    /* margin: 6px; */
 }
