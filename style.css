@@ -56,21 +56,33 @@ body{
     background-color: #E5E7EB;
     min-width: 100%;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     padding: 0px 300px 0px 300px;
+    font-weight: 100;
 }
 
-.section3 .quote{
+.section3 p{
+    font-weight: 100;
+}
+
+.section3 .sec3Content{
+    display: flex;
+    flex-direction: column;
+    /* padding:  */
+    font-weight: 100;
+}
+
+.section3 .sec3Content .quote{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    font-weight:lighter;
+    font-weight:300;
     /* padding: 50px 100px 0px 100px; */
     margin: 36px 0px 0px 0px;
     text-align: start;
 }
 
-.section3 .author{
+.section3 .sec3Content .author{
     font-weight: bold;
     align-self: flex-end;
 }
