@@ -1,14 +1,6 @@
 * {
   box-sizing:border-box
 }
-/* .roboto-font {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-} */
 
 body{
     display:flex;
@@ -30,7 +22,6 @@ body{
     font-size: 18px;
     font-family: "Roboto", sans-serif;
     padding: 0px 300px 0px 300px;
-    /* min-width: 100%; */
 }
 
 .section2{
@@ -48,7 +39,7 @@ body{
 
 .section2 p{
     padding: 0px 16px 0px 16px;
-    margin: 46px 0px 46px 0px;
+    margin: 52px 0px 52px 0px;
 }
 
 .section3{
@@ -58,7 +49,6 @@ body{
     background-color: #E5E7EB;
     min-width: 100%;
     text-align: center;
-    /* font-family: "Roboto", sans-serif; */
     padding: 0px 300px 0px 300px;
     font-weight: 100;
 }
@@ -71,7 +61,6 @@ body{
 .section3 .sec3Content{
     display: flex;
     flex-direction: column;
-    /* padding:  */
     font-weight: 100;
     margin: 125px 0px;
     padding: 0px 75px;
@@ -82,7 +71,6 @@ body{
     font-style: italic;
     color: #1F2937;
     font-weight:100;
-    /* padding: 50px 100px 0px 100px; */
     margin: 0px;
     text-align: start;
 }
@@ -99,7 +87,50 @@ body{
     min-width: 100%;
     text-align: center;
     font-family: "Roboto", sans-serif;
-    padding: 0px 300px 0px 300px;
+    padding: 100px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 .sec4Content{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 75px;
+    padding: 42px 100px;
+    min-width: 90%;
+}
+
+.section4 p{
+    margin: 0px;
+    justify-self: start;
+    align-self: flex-start;
+}
+
+.section4 .sec4Content .sec4Text{
+    margin:0px;
+    justify-self: flex-start;
+    padding: 15px;
+}
+
+.section4 .callToAction{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.section4 button{
+    background-color: #3882F6;
+    color:white;
+    border: solid white;
+    height: 40px;
+    width: 140px;
+    align-self: center;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .header{
@@ -124,7 +155,7 @@ body{
     justify-content: center;
     align-content: center;
     color: #E5E7EB;
-    padding: 0px 200px 0px 200px;
+    padding: 20px 200px 20px 200px;
 }
 
 .heroText{
@@ -189,7 +220,6 @@ body{
 .underHeader p{
     margin: 0px;
     display: flex;
-    /* flex-wrap: wrap; */
     text-wrap:wrap;
 }
 
